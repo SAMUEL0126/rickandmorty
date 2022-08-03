@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+}
+.ImgBaner{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    margin-left: 550px;
+    
+}
+.Inputcon{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.Information{
+  color: white;
+}
+.Card {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(56, 53, 53);
+  margin-top: 20px;
+}
+.Padre{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.Inputcon button{
+  width: 5%;
+  height: auto; 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(22, 139, 152);
+  padding: 5px;
+}
+.Inputcon input{
+  width: 40%;
+  height: auto; 
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.Information{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font: oblique bold 80% cursive;
+}
